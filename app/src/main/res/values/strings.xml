@@ -1,0 +1,13 @@
+<resources>
+    <string name="lee_app_name">Closers</string>
+    <string name="lee_umeng_appid">58083b9267e58e2d910018bc</string>
+    <string name="lee_ext_tip">再点一次退出程序</string>
+    <string name="lee_no_main_tool">该功能尚未开放</string>
+    <string name="lee_get_ol_cf_fail">获取在线参数失败</string>
+    <string name="lee_get_ol_cf">正在加载在线参数...</string>
+    <string name="lee_get_ol_cf_suc">在线参数加载成功</string>
+
+    <string name="lee_get_ol_main_fail">获取应用数据失败</string>
+    <string name="lee_get_ol_main">正在加载应用数据...</string>
+    <string name="lee_get_ol_main_suc">应用数据加载成功</string>
+</resources>
