@@ -7,4 +7,5 @@ package leezm.closers.Config;
 public class LeeMainListFuction {
     public  static  final  String PICTURE="A";
     public  static  final  String FASHION="B";
+    public  static  final  String MEIZHI="C";
 }

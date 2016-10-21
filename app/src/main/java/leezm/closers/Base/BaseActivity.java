@@ -1,4 +1,4 @@
-package leezm.closers;
+package leezm.closers.Base;
 
 import android.annotation.TargetApi;
 import android.os.Build;
@@ -10,6 +10,8 @@ import android.transition.TransitionInflater;
 import com.umeng.analytics.MobclickAgent;
 
 import org.xutils.x;
+
+import leezm.closers.R;
 
 /**
  * Created by Administrator on 2016-10-20.

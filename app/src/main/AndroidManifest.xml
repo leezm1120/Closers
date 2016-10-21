@@ -33,8 +33,9 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/lee_app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".SplashActivity">
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity"
+            android:theme="@style/Theme.AppStartLoadTranslucent">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -52,7 +53,8 @@
 
         <activity android:name=".MainActivity" />
         <activity android:name=".Activity.ImageActivity" />
-        <activity android:name=".Activity.FashionActivity"></activity>
+        <activity android:name=".Activity.FashionActivity" />
+        <activity android:name=".Activity.MeiZhiActivity"></activity>
     </application>
 
 </manifest>

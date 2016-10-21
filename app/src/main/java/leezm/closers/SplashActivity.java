@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
-import android.util.Log;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -23,8 +22,10 @@ import cn.bmob.v3.Bmob;
 import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.FindListener;
+import leezm.closers.Base.BaseActivity;
 import leezm.closers.Bean.ClosersInitBean;
 import leezm.closers.Bean.MainListBean;
+import leezm.closers.Config.DevelopersConfig;
 import leezm.closers.Config.LeeBmobConfig;
 import leezm.closers.Config.LeeSharedPreferences;
 import leezm.closers.Utils.LogUtils;
@@ -56,6 +57,9 @@ public class SplashActivity extends BaseActivity {
         Bmob.initialize(mContext, LeeBmobConfig.BMOB_APP_ID);
         init();
         initMainData();
+        if (DevelopersConfig.ISDEBUG){
+            Toast.makeText(mContext,R.string.lee_debug,Toast.LENGTH_SHORT).show();
+        }
     }
 
     //获取主页的数据

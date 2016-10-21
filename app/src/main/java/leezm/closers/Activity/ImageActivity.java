@@ -2,7 +2,7 @@ package leezm.closers.Activity;
 
 import android.os.Bundle;
 
-import leezm.closers.BaseActivity;
+import leezm.closers.Base.BaseActivity;
 import leezm.closers.R;
 
 public class ImageActivity extends BaseActivity {

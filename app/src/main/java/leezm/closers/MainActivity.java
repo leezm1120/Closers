@@ -12,7 +12,9 @@ import android.widget.Toast;
 import java.util.List;
 import leezm.closers.Activity.FashionActivity;
 import leezm.closers.Activity.ImageActivity;
+import leezm.closers.Activity.MeiZhiActivity;
 import leezm.closers.Adapter.MainRecyclerViewAdapter;
+import leezm.closers.Base.BaseActivity;
 import leezm.closers.Bean.MainListBean;
 import leezm.closers.Config.LeeMainListFuction;
 
@@ -59,12 +61,19 @@ public class MainActivity extends BaseActivity {
         String fuction = application.getMainListBeen().get(position).getFunctionName();
         if (LeeMainListFuction.PICTURE.equals(fuction)){
             startActivity(new Intent(mContext,ImageActivity.class));
-        }else if (LeeMainListFuction.FASHION.equals(fuction)){
-            startActivity(new Intent(mContext,FashionActivity.class));
+            return;
         }
-
+        if (LeeMainListFuction.FASHION.equals(fuction)){
+            startActivity(new Intent(mContext,FashionActivity.class));
+            return;
+        }
+        if (LeeMainListFuction.MEIZHI.equals(fuction)){
+            startActivity(new Intent(mContext,MeiZhiActivity.class));
+            return;
+        }
         else {
             Toast.makeText(mContext,getString(R.string.lee_no_main_tool),Toast.LENGTH_SHORT).show();
+            return;
         }
 
     }
