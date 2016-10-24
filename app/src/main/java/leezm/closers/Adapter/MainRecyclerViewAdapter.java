@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import org.xutils.common.util.DensityUtil;
 import org.xutils.image.ImageOptions;
 import org.xutils.x;
 
@@ -30,6 +31,7 @@ public class MainRecyclerViewAdapter extends RecyclerView.Adapter{
         this.list = list;
         this.context = context;
         imageOptions= new ImageOptions.Builder()
+                .setRadius(DensityUtil.dip2px(5))
                 .setImageScaleType(ImageView.ScaleType.CENTER).build();
     }
 

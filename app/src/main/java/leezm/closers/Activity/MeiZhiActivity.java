@@ -30,6 +30,7 @@ import leezm.closers.Adapter.MeiZhiRecyclerViewAdapter;
 import leezm.closers.Base.BaseActivity;
 import leezm.closers.Bean.GankBean;
 
+import leezm.closers.Config.DevelopersConfig;
 import leezm.closers.R;
 import leezm.closers.Utils.GankApi;
 import leezm.closers.Utils.LogUtils;
@@ -79,6 +80,7 @@ public class MeiZhiActivity extends BaseActivity {
             swipeRefreshLayout.setRefreshing(true);
         }
         RequestParams params = new RequestParams(GankApi.getMeiZhi(mpage));
+        LogUtils.e("getConnectTimeout:"+ params.getConnectTimeout());
         LogUtils.e(GankApi.getMeiZhi(mpage));
         x.http().get(params, new Callback.CommonCallback<String>() {
             @Override

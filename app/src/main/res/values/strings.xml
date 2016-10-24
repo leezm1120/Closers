@@ -12,4 +12,9 @@
          <string name = "lee_get_ol_main_fail">加载服务器数据失败</string>
          <string name = "lee_get_ol_main">正在加载服务器数据...</string>
          <string name = "lee_get_ol_main_suc">服务器数据加载成功</string>
+
+    <string name="lee_downloading">正在下载更新：</string>
+    <string name="lee_found_update">发现新版本</string>
+    <string name="lee_sure_update">更新</string>
+    <string name="lee_sure_cancel">取消</string>
 </resources>
