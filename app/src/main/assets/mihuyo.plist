@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<plist version="1.0">
+<dict>
+ <key>items</key>
+ <array>
+  <dict>
+   <key>assets</key>
+   <array>
+    <dict>
+     <key>kind</key>
+     <string>software-package</string>
+     <key>url</key>
+     <!-- http或者https链接的ipa文件地址 -->
+     <string>https://www.leiyun.org/director.html#!https://nj02all01.baidupcs.com/file/a519cde9b8e9b6f9e411ceb83ed34b45?bkt=p3-00008f6af7661b8036747e4639cb041ed9a4&fid=3221807055-250528-120170001689944&time=1523861925&sign=FDTAXGERQBHSKa-DCb740ccc5511e5e8fedcff06b081203-NgqrtI%2BzRVFfb%2BA5iqahwEl401E%3D&to=69&size=647033567&sta_dx=647033567&sta_cs=0&sta_ft=ipa&sta_ct=0&sta_mt=0&fm2=MH%2CYangquan%2CAnywhere%2C%2Cnone%2Cany&vuk=3221807055&iv=0&esl=1&newver=1&newfm=1&secfm=1&flow_ver=3&pkey=00008f6af7661b8036747e4639cb041ed9a4&expires=8h&rt=pr&r=413846672&network_type=wifi&mlogid=2449721610950942338&vbdid=-&fin=mohuyo.ipa&fn=mohuyo.ipa&bflag=69,73,75,79,80-69&check_blue=1&rtype=1&dp-logid=2449721610950942338&dp-callid=0.1.1&hps=1&tsl=0&csl=80&csign=n%2Bden2uyDpKWFKJQ4w5KQzCg7jU%3D&so=0&ut=6&uter=4&serv=0&uc=2448073570&ic=3343913978&ti=37cfb58296b21ea9b529a79d2e64ab53250c125e66684a64&by=themis</string>
+    </dict>
+    <dict>
+     <key>kind</key>
+     <string>full-size-image</string>
+     <key>needs-shine</key>
+     <true/>
+     <key>url</key>
+     <!-- http或者https链接的图片地址，可直接使用app对应的icon（分辨率没强制要求） -->
+     <string>http://imgsrc.baidu.com/forum/pic/item/e16b352442a7d933708f2f1fa14bd11372f00194.jpg</string>
+    </dict>
+    <dict>
+     <key>kind</key>
+     <string>display-image</string>
+     <key>needs-shine</key>
+     <true/>
+     <key>url</key>
+     <!-- http或者https链接的小图片地址，可直接使用app对应的icon（分辨率没强制要求） -->
+     <string>http://imgsrc.baidu.com/forum/pic/item/e16b352442a7d933708f2f1fa14bd11372f00194.jpg</string>
+    </dict>
+   </array>
+   <key>metadata</key>
+   <dict>
+    <key>bundle-identifier</key>
+    <!-- BundleID，就是新建app时的包名 -->
+    <string>com.mihuyo.beta</string>
+    <key>bundle-version</key>
+    <!-- 版本号 -->
+    <string>5.1.106</string>
+    <key>kind</key>
+    <string>software</string>
+    <key>title</key>
+    <!-- 安装app时的提示信息 -->
+    <string>米忽悠 崩崩 正在安装中…</string>
+   </dict>
+  </dict>
+ </array>
+</dict>
+</plist>
